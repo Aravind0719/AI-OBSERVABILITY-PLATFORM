@@ -1,0 +1,10 @@
+application:
+  name: ai-observability-platform
+  environment: development
+
+server:
+  host: localhost
+  port: 8000
+
+logging:
+  level: INFO
