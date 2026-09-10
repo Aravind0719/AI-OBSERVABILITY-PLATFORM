@@ -1,0 +1,223 @@
+
+C:\AI OBSERVABILITY PLATFORM>git config --global user.name
+Aravind0719
+
+C:\AI OBSERVABILITY PLATFORM>git config --global user.email
+aravind.r.bollampally@onedegreeteam.com
+
+C:\AI OBSERVABILITY PLATFORM>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\AI OBSERVABILITY PLATFORM>git init
+Initialized empty Git repository in C:/AI OBSERVABILITY PLATFORM/.git/
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\AI OBSERVABILITY PLATFORM>git init
+Reinitialized existing Git repository in C:/AI OBSERVABILITY PLATFORM/.git/
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\AI OBSERVABILITY PLATFORM>git branch -M main
+
+C:\AI OBSERVABILITY PLATFORM>git branch
+
+C:\AI OBSERVABILITY PLATFORM>git branch
+
+C:\AI OBSERVABILITY PLATFORM>notepad README.md
+
+C:\AI OBSERVABILITY PLATFORM>notepad .gitignore
+
+C:\AI OBSERVABILITY PLATFORM>notepad app.py
+
+C:\AI OBSERVABILITY PLATFORM>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3467-D502
+
+ Directory of C:\AI OBSERVABILITY PLATFORM
+
+09/10/2026  09:59 AM    <DIR>          .
+09/10/2026  09:59 AM               151 .gitignore
+09/10/2026  10:00 AM                78 app.py
+09/10/2026  09:58 AM               432 README.md
+               3 File(s)            661 bytes
+               1 Dir(s)  232,076,562,432 bytes free
+
+C:\AI OBSERVABILITY PLATFORM>python app.py
+AI Observability Platform
+Project initialized successfully.
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        app.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\AI OBSERVABILITY PLATFORM>git add .
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   app.py
+
+
+C:\AI OBSERVABILITY PLATFORM>git commit -m "Initial project setup"
+[main (root-commit) 8093020] Initial project setup
+ 3 files changed, 57 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 app.py
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\AI OBSERVABILITY PLATFORM>git branch
+* main
+
+C:\AI OBSERVABILITY PLATFORM>git switch -c feature/initial-observability
+Switched to a new branch 'feature/initial-observability'
+
+C:\AI OBSERVABILITY PLATFORM>git branch
+* feature/initial-observability
+  main
+
+C:\AI OBSERVABILITY PLATFORM>notepad app.py
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch feature/initial-observability
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\AI OBSERVABILITY PLATFORM>git commit -m "Add initial observability feature"
+On branch feature/initial-observability
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\AI OBSERVABILITY PLATFORM>git add app.py
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch feature/initial-observability
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.py
+
+
+C:\AI OBSERVABILITY PLATFORM>git commit -m "Add initial observability feature"
+[feature/initial-observability 6226762] Add initial observability feature
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\AI OBSERVABILITY PLATFORM>git switch main
+Switched to branch 'main'
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\AI OBSERVABILITY PLATFORM>type app.py
+print("AI Observability Platform")
+print("Project initialized successfully.")
+C:\AI OBSERVABILITY PLATFORM>git switch feature/initial-observability
+Switched to branch 'feature/initial-observability'
+
+C:\AI OBSERVABILITY PLATFORM>type app.py
+print("AI Observability Platform")
+print("Project initialized successfully.")
+print("Observability feature added.")
+C:\AI OBSERVABILITY PLATFORM>git remote add origin https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM.git
+
+C:\AI OBSERVABILITY PLATFORM>git remote -v
+origin  https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM.git (fetch)
+origin  https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM.git (push)
+
+C:\AI OBSERVABILITY PLATFORM>git switch main
+Switched to branch 'main'
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\AI OBSERVABILITY PLATFORM>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 711 bytes | 237.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>git push
+Everything up-to-date
+
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>
+C:\AI OBSERVABILITY PLATFORM>git switch feature/initial-observability
+Switched to branch 'feature/initial-observability'
+
+C:\AI OBSERVABILITY PLATFORM>git status
+On branch feature/initial-observability
+nothing to commit, working tree clean
+
+C:\AI OBSERVABILITY PLATFORM>git push -u origin feature/initial-observability
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature/initial-observability' on GitHub by visiting:
+remote:      https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM/pull/new/feature/initial-observability
+remote:
+To https://github.com/Aravind0719/AI-OBSERVABILITY-PLATFORM.git
+ * [new branch]      feature/initial-observability -> feature/initial-observability
+branch 'feature/initial-observability' set up to track 'origin/feature/initial-observability'.
+
+C:\AI OBSERVABILITY PLATFORM>
